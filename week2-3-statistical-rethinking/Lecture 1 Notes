@@ -1,0 +1,25 @@
+Lecture 1 Notes
+
+Key Concepts:
+1. Statistical models = stories about how the world works
+2. Bayesian models let you combine prior beliefs + data to update what you believe
+3. Uncertainty is the point — not the enemy
+4. A good model doesn’t “find the truth” — it helps us reason under uncertainty
+
+Drawing the Bayesian Owl (5 Steps):
+1. Theoretical estimand — What do you want to know?
+2. Scientific (causal) model(s) — What do you believe causes what? (DAGs)
+3. Build statistical model — Use 1 & 2 to set up a probability model
+4. Simulate from Step 2 — Test if your model gets the right answer in a fake world
+5. Analyze real data — Only after simulation, go test it with real data
+
+DAGs (Directed Acyclic Graphs):
+1. Visual maps of cause and effect
+2. Arrows show direction of influence (e.g., A → B → C)
+3. Help us decide what to control for when modeling
+4. Force us to think about our assumptions
+
+Questions:
+1. How do you choose priors that aren’t totally arbitrary?
+2. What if your DAG is wrong — how much does that affect your conclusions?
+3. Why simulate fake data instead of just analyzing real data from the start?
